@@ -42,7 +42,8 @@ Seems like... Emotion of your voice message was {}
     context.bot.send_message(chat_id=update.message.chat_id, text=msg)
 
 
-TOKEN = 0######
+TOKEN = 0###### Здесь должен быть ваш токен
+
 
 updater = Updater(token=TOKEN, workers=4)  # Создаём переменную типа (Updater) с аргументом token, который равен переменной TOKEN
 
